@@ -1,0 +1,155 @@
+2017-03-16 06:00:21 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: web_news)
+2017-03-16 06:00:21 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'web_news.spiders', 'SPIDER_MODULES': ['web_news.spiders'], 'LOG_LEVEL': 'INFO', 'CONCURRENT_REQUESTS_PER_DOMAIN': 32, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'CONCURRENT_REQUESTS': 32, 'METAREFRESH_ENABLED': False, 'CONCURRENT_REQUESTS_PER_IP': 32, 'BOT_NAME': 'web_news', 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'REDIRECT_ENABLED': False, 'LOG_FILE': 'dj_log/xizangdj5.log', 'DOWNLOAD_DELAY': 0.25}
+2017-03-16 06:00:21 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-03-16 06:00:21 [xizangdj] INFO: get key 2
+2017-03-16 06:00:21 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-03-16 06:00:21 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-03-16 06:00:21 [scrapy.middleware] INFO: Enabled item pipelines:
+['web_news.pipelines.MongoDBPipeline']
+2017-03-16 06:00:21 [scrapy.core.engine] INFO: Spider opened
+2017-03-16 06:00:21 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-16 06:00:26 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-03-16 06:00:26 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 3, 15, 22, 0, 26, 129667),
+ 'log_count/INFO': 8,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2017, 3, 15, 22, 0, 21, 122738)}
+2017-03-16 06:00:26 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-03-17 06:00:06 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: web_news)
+2017-03-17 06:00:06 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'web_news.spiders', 'SPIDER_MODULES': ['web_news.spiders'], 'LOG_LEVEL': 'INFO', 'CONCURRENT_REQUESTS_PER_DOMAIN': 32, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'CONCURRENT_REQUESTS': 32, 'METAREFRESH_ENABLED': False, 'CONCURRENT_REQUESTS_PER_IP': 32, 'BOT_NAME': 'web_news', 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'REDIRECT_ENABLED': False, 'LOG_FILE': 'dj_log/xizangdj5.log', 'DOWNLOAD_DELAY': 0.25}
+2017-03-17 06:00:06 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-03-17 06:00:06 [xizangdj] INFO: get key 1
+2017-03-17 06:00:06 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-03-17 06:00:06 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-03-17 06:00:06 [scrapy.middleware] INFO: Enabled item pipelines:
+['web_news.pipelines.MongoDBPipeline']
+2017-03-17 06:00:06 [scrapy.core.engine] INFO: Spider opened
+2017-03-17 06:00:06 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-17 06:00:06 [twisted] ERROR: Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/crawler.py", line 280, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1192, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1201, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/core/engine.py", line 135, in _next_request
+    self.crawl(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/core/engine.py", line 210, in crawl
+    self.schedule(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/core/engine.py", line 216, in schedule
+    if not self.slot.scheduler.enqueue_request(request):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy_redis/scheduler.py", line 167, in enqueue_request
+    self.queue.push(request)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy_redis/queue.py", line 76, in push
+    self.server.lpush(self.key, self._encode_request(request))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 1227, in lpush
+    return self.execute_command('LPUSH', name, *values)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 573, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 585, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 582, in read_response
+    raise response
+redis.exceptions.ResponseError: OOM command not allowed when used memory > 'maxmemory'.
+
+2017-03-17 06:00:11 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-03-17 06:00:11 [scrapy.utils.signal] ERROR: Error caught on signal handler: <function close at 0x7f542a3c9500>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 139, in maybeDeferred
+    result = f(*args, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/pydispatch/robustapply.py", line 55, in robustApply
+    return receiver(*arguments, **named)
+  File "/home/u231/spider/web_news/misc/spiderredis.py", line 23, in close
+    spider.server.lpush(spider.redis_wait, json.dumps(spider.key))
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 1227, in lpush
+    return self.execute_command('LPUSH', name, *values)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 573, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 585, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 582, in read_response
+    raise response
+ResponseError: OOM command not allowed when used memory > 'maxmemory'.
+2017-03-17 06:00:11 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 3, 16, 22, 0, 11, 572309),
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 8,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2017, 3, 16, 22, 0, 6, 567668)}
+2017-03-17 06:00:11 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-03-18 06:03:14 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: web_news)
+2017-03-18 06:03:14 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'web_news.spiders', 'SPIDER_MODULES': ['web_news.spiders'], 'LOG_LEVEL': 'INFO', 'CONCURRENT_REQUESTS_PER_DOMAIN': 32, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'CONCURRENT_REQUESTS': 32, 'METAREFRESH_ENABLED': False, 'CONCURRENT_REQUESTS_PER_IP': 32, 'BOT_NAME': 'web_news', 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'REDIRECT_ENABLED': False, 'LOG_FILE': 'dj_log/xizangdj5.log', 'DOWNLOAD_DELAY': 0.25}
+2017-03-18 06:03:15 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-03-18 06:03:15 [xizangdj] INFO: get key 5
+2017-03-18 06:03:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-03-18 06:03:15 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-03-18 06:03:15 [scrapy.middleware] INFO: Enabled item pipelines:
+['web_news.pipelines.MongoDBPipeline']
+2017-03-18 06:03:15 [scrapy.core.engine] INFO: Spider opened
+2017-03-18 06:03:15 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-18 06:03:15 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-03-18 06:03:15 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 3, 17, 22, 3, 15, 72309),
+ 'log_count/INFO': 8,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2017, 3, 17, 22, 3, 15, 69159)}
+2017-03-18 06:03:15 [scrapy.core.engine] INFO: Spider closed (finished)
